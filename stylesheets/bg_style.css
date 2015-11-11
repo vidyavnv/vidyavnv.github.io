@@ -40,13 +40,13 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../images/_small/india_gate_blur.jpg");
+  background-image: url("../images/index/india_gate_blur.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("../images/_small/2.jpg");
+  background-image: url("../images/index/2.jpg");
 }
 section.module.parallax-3 {
-  background-image: url("../images/_small/3.jpg");
+  background-image: url("../images/index/3.jpg");
 }
 
 @media all and (min-width: 600px) {
@@ -70,7 +70,7 @@ section.module.parallax-3 {
   border-radius: 10%;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
-  background: url("../images/_small/vidya.png") no-repeat;
+  background: url("../images/index/vidya.png") no-repeat;
   background-position: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, .10);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .10);
