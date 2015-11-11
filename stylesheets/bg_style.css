@@ -66,9 +66,7 @@ section.module.parallax-3 {
   }
 }
 
-.circular {
-  width: 120px;
-  height: 120px;
+/*.circular {
   border-radius: 10%;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -77,6 +75,14 @@ section.module.parallax-3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, .10);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .10);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .10);
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  bottom:20%;
+  left:50%;
+  transform:translateX(-50%);
+}*/
+.circular {
   display: block;
   margin: 0 auto;
   position: absolute;
