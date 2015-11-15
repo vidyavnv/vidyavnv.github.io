@@ -17,16 +17,37 @@ section.module p {
 section.module p:last-child {
   margin-bottom: 0;
 }
-section.module.content {
-  padding: 90px 0;
-}
-.delhivery,
-.amex {
+.aboutme {
   padding-top: 50px;
   padding-right: 200px;
   padding-bottom: 50px;
-  padding-left: 200px;
+  padding-left: 250px;
 }
+.delhivery
+{
+  padding-right: 200px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  display: block
+  margin: 0 auto;
+  position: relative;
+  bottom:-50px;
+  left:50%;
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+}
+
+table.internships{
+    table-layout: fixed;
+    width: 200px;
+}
+
+td {
+    overflow: hidden;
+    width: 500px;
+    padding: 20px;
+}
+
 section.module.parallax {
   height: 600px;
   background-position: 50% 50%;
@@ -38,7 +59,7 @@ section.module.parallax {
   background-size: cover;
 }
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   font-size: 48px;
   line-height: 600px;
   font-weight: 700;
@@ -47,12 +68,15 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../images/index/india_gate_blur.jpg");
+  background-image: url("../images/index/indiagate_blur.jpg");
 }
 section.module.parallax-2 {
   background-image: url("../images/index/macbook.jpg");
 }
 section.module.parallax-3 {
+  background-image: url("../images/index/3.jpg");
+}
+section.module.parallax-4 {
   background-image: url("../images/index/3.jpg");
 }
 
@@ -73,39 +97,34 @@ section.module.parallax-3 {
   }
 }
 
-/*.circular {
-  border-radius: 10%;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  background: url("../images/index/vidya.png") no-repeat;
-  background-position: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .10);
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .10);
-  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .10);
-  display: block;
-  margin: 0 auto;
-  position: absolute;
-  bottom:20%;
-  left:50%;
-  transform:translateX(-50%);
-}*/
-.circular {
-  /*margin: 10px 30px 0px 30px;*/
+
+.circular,
+.intro,
+.social_tags
+{
   display: block;
   margin: 0 auto;
   position: relative;
-  bottom:-400px;
+  bottom:-50px;
   left:50%;
   -webkit-transform:translateX(-50%);
   -moz-transform:translateX(-50%);
 }
 
-.social_tags {
+.place
+{
   display: block;
   margin: 0 auto;
   position: relative;
-  bottom:-400px;
-  left:50%;
+  bottom:-300px;
+  left:30%;
   -webkit-transform:translateX(-50%);
-  -moz-transform:translateX(-50%);
+  -moz-transform:translateX(-50%); 
+}
+
+section.module.parallax h3 {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  -moz-text-decoration-color: white;
+  font-size: 40px;
 }
