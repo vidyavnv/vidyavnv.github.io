@@ -107,7 +107,7 @@ section.module.parallax-4 {
   margin: 0 auto;
   position: relative;
   bottom:-50px;
-  left:50%;
+  left:52%;
   -webkit-transform:translateX(-50%);
   -moz-transform:translateX(-50%);
 }
