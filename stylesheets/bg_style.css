@@ -23,6 +23,7 @@ section.module p:last-child {
   padding-bottom: 50px;
   padding-left: 250px;
 }
+
 .delhivery,
 .mozilla
 {
@@ -49,6 +50,13 @@ td {
     padding: 20px;
 }
 
+.publications {
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
 section.module.parallax {
   height: 600px;
   background-position: 50% 50%;
@@ -61,8 +69,8 @@ section.module.parallax {
 }
 section.module.parallax h1 {
   color: white;
-  font-size: 48px;
-  line-height: 600px;
+  font-size: 36px;
+  line-height: 500px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -78,6 +86,9 @@ section.module.parallax-3 {
   background-image: url("../images/index/3.jpg");
 }
 section.module.parallax-4 {
+  background-image: url("../images/index/Publications.jpg");
+}
+section.module.parallax-5 {
   background-image: url("../images/index/Mumbai.jpg");
 }
 
