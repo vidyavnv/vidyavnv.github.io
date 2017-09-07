@@ -24,7 +24,7 @@ section.module p:last-child {
   padding-left: 250px;
 }
 
-.mozilla
+/*.mozilla
 {
   padding-right: 200px;
   padding-bottom: 50px;
@@ -36,7 +36,7 @@ section.module p:last-child {
   left:50%;
   -webkit-transform:translateX(-50%);
   -moz-transform:translateX(-50%);
-}
+}*/
 
 table.internships{
     table-layout: fixed;
