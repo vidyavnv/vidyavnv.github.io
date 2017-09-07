@@ -90,6 +90,9 @@ section.module.parallax-4 {
 section.module.parallax-5 {
   background-image: url("../images/index/Mumbai.jpg");
 }
+section.module.parallax-6 {
+  background-image: url("../images/index/NewYork2.jpeg");
+}
 
 @media all and (min-width: 600px) {
   section.module h2 {
